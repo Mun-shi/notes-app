@@ -1,4 +1,4 @@
-const { marked } = require("marked");
+//import { marked } from 'marked';
 
 const notesEl = document.querySelector('.notes');
 const editBtn = document.querySelector('.edit');
