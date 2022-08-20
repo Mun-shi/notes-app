@@ -10,15 +10,28 @@ body {
     font-family: "poppins", sans-serif;
     margin: 0;
 }
+.add {
+    background-color: rgb(198, 230, 82);
+    color: rgb(16, 17, 18);
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    padding: 0.5rem;
+    margin: 2rem auto;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
 
-.notes {
+.note {
     background-color: aliceblue;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.2);
     margin: 20px;
     height: 400px;
     width: 400px;
 }  
 
-.notes .tools {
+.note .tools {
     background-color: rgb(136, 165, 31);
     display: flex;
     justify-content: flex-end;
@@ -28,17 +41,19 @@ body {
     background-color: transparent;
     border: none;
     color: white;
+    cursor: pointer;
     font-size: 1rem;
     margin-left: 00.5rem;
 }
 
-.notes .main {
-    background-color: aliceblue;
+.note .main {
+    background-color: #eee;
+    overflow: hidden;
     height: 400px;
     width: 100%;
 }
 
-.notes textarea {
+.note textarea {
     outline: none;
     font-family: inherit;
     font-size: 1.2rem;
@@ -47,7 +62,7 @@ body {
     width: 100%;
 }
 
-.notes .hidden {
+.note .hidden {
     display: none;
  }
 
